@@ -1,12 +1,12 @@
 <h1 align="center">
-    Writing a Redis Server
+    Writing a cache Server
 </h1>
 
 <h4 align="center">
-    Creating a Redis database server in python
+    Creating an in memory database server in python
 </h4>
 
-Source: [Write your own Redis](http://charlesleifer.com/blog/building-a-simple-redis-server-with-python/)
+
 
 ### Commands
 
@@ -47,3 +47,6 @@ followed by the data, terminated by a carriage-return/line-feed.
 | NULL      | $      | $-1\r\n{string of length -1} | ``` $-1\r\n ```
 
 
+## Additional reading
+
+Source: [Write your own Redis](http://charlesleifer.com/blog/building-a-simple-redis-server-with-python/) (Written for python2.7)
